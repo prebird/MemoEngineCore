@@ -11,7 +11,7 @@ namespace MemoEngineCore
 {
 
 
-    public partial class FrmHelloWorld
+    public partial class Default
     {
 
         /// <summary>
@@ -33,13 +33,13 @@ namespace MemoEngineCore
         protected global::System.Web.UI.WebControls.Calendar Calendar1;
 
         /// <summary>
-        /// TxtInput 컨트롤입니다.
+        /// txtDisplay 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtInput;
+        protected global::System.Web.UI.WebControls.TextBox txtDisplay;
 
         /// <summary>
         /// btnClick 컨트롤입니다.
@@ -51,12 +51,21 @@ namespace MemoEngineCore
         protected global::System.Web.UI.WebControls.Button btnClick;
 
         /// <summary>
-        /// lblDisplay 컨트롤입니다.
+        /// btnPrint 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDisplay;
+        protected global::System.Web.UI.WebControls.Button btnPrint;
+
+        /// <summary>
+        /// btnOutput 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnOutput;
     }
 }
